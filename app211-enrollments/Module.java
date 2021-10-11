@@ -22,7 +22,7 @@ public class Module
        // initialise instance variables
         this.code = code;
         this.title= title;
-        credit = 0;
+        credit = 15;
     }
 
     /**
@@ -62,7 +62,8 @@ public class Module
     {
         //printHeading();
         
-        System.out.println(" Module Code: " + code + ": " + title);
+        System.out.println(" Module Code: " + code + ": " 
+                + title + " Credit " + credit );
         System.out.println();
     }
     }
