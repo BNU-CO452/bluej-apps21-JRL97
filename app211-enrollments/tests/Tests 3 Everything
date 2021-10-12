@@ -1,0 +1,38 @@
+Module programming = new Module("CO452", "Programming Concepts");
+programming.getCode()
+    returned String "CO452"
+programming.getTitle()
+    returned String "Programming Concepts"
+programming.getCredit()
+    returned int 15
+Module programming = new Module("CO452", "Programming Concepts");
+programming.setCredit(30);
+programming.getCredit()
+    returned int 30
+programming.setCredit(15);
+Module programming = new Module("CO452", "Programming Concepts");
+programming.print();
+ Module Code: CO452: Programming ConceptsCredit15
+
+Course web = new Course("BT1CTG1", "BSc (Hons) Computing");
+Module module1 = new Module("CO452", "Programmig Concepts" );
+web.addModule(module1);
+web.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc (Hons) Computing
+
+Course web = new Course("BT1CTG1", "BSc (Hons) Computing");
+Module programming = new Module("CO452", "Programming Concepts");
+web.addModule(programming);
+web.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc (Hons) Computing
+
+ Module Code: CO452: Programming ConceptsCredit15
+
