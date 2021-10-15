@@ -7,7 +7,7 @@
  */
 public class Module
 {
-    // instance variables - replace the example below with your own
+    // instance variables 
 
     private String code;
     private String title;
@@ -15,7 +15,8 @@ public class Module
     
 
     /**
-     * Constructor for objects of class Module
+     * Constructor for objects of class Module, it initialises the module code
+     * and the module title.
      */
     public Module(String code, String title)
     {
@@ -53,8 +54,7 @@ public class Module
     }
     
       /**
-     * Print the details of the course, the list
-     * of students enrolled and the module
+     * Print the details of the module including code, title and credit.
      */
     public void print()
     {
