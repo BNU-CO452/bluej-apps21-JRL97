@@ -5,6 +5,7 @@ import java.util.*;
  * at BNU together with a list of student who are enrolled
  *
  * @author Derek Peacock
+ * @modified by Jessica Leach
  * @version 1.0 14/07/2021
  */
 public class Course
@@ -38,7 +39,7 @@ public class Course
         System.out.println(" Course Code: " + code + ": " + title);
         System.out.println();
         
-        /**module.print(); */
+        module.print(); 
     }
     
     /**

@@ -26,11 +26,9 @@ public class Module
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Methods for returning values
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+    */
     public String getCode()
     {
         return this.code;
