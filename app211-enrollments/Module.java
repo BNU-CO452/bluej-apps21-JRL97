@@ -1,6 +1,7 @@
 
 /**
- * A class that contains information regarding modules available across courses.
+ * A class that contains information such as code, title and credit for a 
+ * module that is associated with one or more courses. 
  *
  * @author Jessica Leach
  * @version 8/10/21
@@ -13,7 +14,6 @@ public class Module
     private String title;
     public int credit; 
     
-
     /**
      * Constructor for objects of class Module, it initialises the module code
      * and the module title.
@@ -33,19 +33,16 @@ public class Module
     public String getCode()
     {
         return this.code;
-        
     }
     
     public String getTitle()
     {
         return this.title;
-        
     }
     
     public int getCredit()
     {
         return this.credit;
-        
     }
     
     public void setCredit(int credit)
@@ -64,5 +61,5 @@ public class Module
                 + title + " Module Credit: " + credit );
         System.out.println();
     }
-    }
+}
 

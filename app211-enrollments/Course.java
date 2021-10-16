@@ -27,7 +27,6 @@ public class Course
         this.title = title;
     }
 
-    
     /**
      * Print the details of the course, the list
      * of students enrolled and the module
