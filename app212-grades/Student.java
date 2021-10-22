@@ -104,14 +104,14 @@ public class Student
     
     private void printModules()
     {
-
+        course.printModules();
     }
     
     public void printTranscript()
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");
-        System.out.println("        by ");
+        System.out.println("        by Jessica Leach");
         System.out.println(" ------------------------------------");
         
         printCourse();
@@ -122,6 +122,7 @@ public class Student
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
+        printModules();
        
         Grades finalGrade = course.calculateGrade(marks);
         

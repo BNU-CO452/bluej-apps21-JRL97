@@ -15,7 +15,7 @@ jessica.addMark(jessicaCo452Mark);
 jessica.printTranscript();
  ------------------------------------
  App21-02: Exam Board Transcript 2021
-        by student name
+        by Jessica Leach
  ------------------------------------
  Student ID: 22133230, Jessica Leach
 
@@ -27,5 +27,6 @@ jessica.printTranscript();
  Code 	 Module 		Credit	 Mark 	 Grade
  ---- 	 -------------------- 	 ------	 ---- 	 -----
 
+ CO452: 	Programming Concepts
 
  No Final Course Grade Yet!
