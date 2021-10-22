@@ -111,7 +111,7 @@ public class Student
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");
-        System.out.println("        by student name");
+        System.out.println("        by ");
         System.out.println(" ------------------------------------");
         
         printCourse();

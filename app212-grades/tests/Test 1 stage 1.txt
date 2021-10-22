@@ -1,0 +1,31 @@
+Student jessica = new Student();
+jessica.print();
+ Student ID: 22133230, Jessica Leach
+Course computing = new Course();
+jessica.enrol(computing);
+jessica.printCourse();
+ Student ID: 22133230, Jessica Leach
+
+ Course BT1CTG1: BSc (Hons) Computing
+Module co452 = new Module("CO452", "Programming Concepts");
+computing.addModule(co452);
+ModuleMark jessicaCo452Mark = new ModuleMark(co452);
+jessicaCo452Mark.setMark(100);
+jessica.addMark(jessicaCo452Mark);
+jessica.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22133230, Jessica Leach
+
+ Course BT1CTG1: BSc (Hons) Computing
+
+ CO452: 	Programming Concepts
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
