@@ -84,9 +84,18 @@ public class Course
         }
         else if (mark > Grades.D.getValue())
         {
-            
+            return Grades.C;
         }
-        return Grades.NS;
+        else if (mark > Grades.F.getValue())
+        {
+            return Grades.D;
+        }
+        else if (mark > Grades.NS.getValue())
+        {
+            return Grades.F;
+        }
+        else
+            return Grades.NS;
     }
     
     /**
@@ -95,7 +104,18 @@ public class Course
      */
     public Grades calculateGrade(ArrayList<ModuleMark> marks)
     {
-     return Grades.NS;
+        int total = 0; 
+        int finalMark = 0;
+        
+        for(ModuleMark mark : marks)
+        {
+          total = total + mark.getValue();  
+        }
+        
+        finalMark = total / MAXN_MODULES;
+        finalGrade = convertToGrade(finalMark);
+        
+        return finalGrade;
     }
     
     /**
@@ -116,6 +136,9 @@ public class Course
      */
     public void printModules()
     {
+        System.out.println("Course Modules");
+        System.out.println("--------------");
+        System.out.println();
         for (Module module : modules)
         {
             module.print();

@@ -103,7 +103,6 @@ public class Student
         return id;
     }
 
-        
     /**
      * Print the student's name and ID number to the 
      * output terminal.
@@ -121,9 +120,10 @@ public class Student
     
     private void printModules()
     {
-        for(ModuleMark modulemark: marks)
+        for(ModuleMark moduleMark: marks)
         {
-             modulemark.print();
+             moduleMark.print();
+             System.out.println(course.convertToGrade(moduleMark.getValue()));
         }
     }
     
