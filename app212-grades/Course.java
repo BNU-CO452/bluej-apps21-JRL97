@@ -17,6 +17,9 @@ public class Course
     
     private Grades finalGrade;
      
+    /** A constructor that acts as a shortcut for creating a course object 
+     * without needing to enter any details. 
+     */
     public Course()
     {
         this("BT1CTG1", "BSc (Hons) Computing");
@@ -43,7 +46,17 @@ public class Course
      */
     public void createModules()
     {
-
+        Module moduleCO452 = new Module("CO452" , "Programming Concepts");
+        addModule(moduleCO452); 
+        
+        Module moduleCO454 = new Module("CO454" , "Digital Technologies and Professional Practice");
+        addModule(moduleCO454); 
+        
+        Module moduleCO456 = new Module("CO456" , "Web Development");
+        addModule(moduleCO456); 
+        
+        Module moduleCO450 = new Module("CO450" , "Computer Architectures");
+        addModule(moduleCO450); 
     }
     
     public void addModule(Module module)
@@ -59,6 +72,20 @@ public class Course
      */
     public Grades convertToGrade(int mark)
     {
+        Grades grade = Grades.NS;
+        
+        if(mark > Grades.B.getValue()) 
+        {
+            return Grades.A;     
+        }
+        else if(mark > Grades.C.getValue())
+        {
+            return Grades.B;
+        }
+        else if (mark > Grades.D.getValue())
+        {
+            
+        }
         return Grades.NS;
     }
     
@@ -68,7 +95,7 @@ public class Course
      */
     public Grades calculateGrade(ArrayList<ModuleMark> marks)
     {
-        return Grades.NS;
+     return Grades.NS;
     }
     
     /**
