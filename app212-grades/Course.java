@@ -4,6 +4,7 @@ import java.util.ArrayList;
  * that enrolled students may want to complete
  *
  * @author Derek Peacock and Nicholas Day
+ * Modified by Jessica Leach
  * @version 0.1 11/Sep/2020
  */
 public class Course
@@ -68,7 +69,7 @@ public class Course
     }
     
     /**
-     * 
+     * Turn the int mark into a letter grade based on grade boundaries. 
      */
     public Grades convertToGrade(int mark)
     {
@@ -144,5 +145,13 @@ public class Course
             module.print();
             module.printCredit();
         }
+    }
+    
+    /**
+     * Print the courses enrolled students
+     */
+    public void printEnrolled()
+    {
+        
     }
 }

@@ -1,0 +1,25 @@
+Student jessica = new Student();
+Student alastair = new Student("Alastair Fox", 21234243);
+Student sarah = new Student("Sarah Smith", 21324221);
+Student freddie = new Student("Freddie Failure", 21321121);
+Course computing = new Course();
+jessica.enrol(computing);
+alastair.enrol(computing);
+sarah.enrol(computing);
+freddie.enrol(computing);
+jessica.printCourse();
+ Student ID: 22133230, Jessica Leach
+
+ Course BT1CTG1: BSc (Hons) Computing
+alastair.printCourse();
+ Student ID: 21234243, Alastair Fox
+
+ Course BT1CTG1: BSc (Hons) Computing
+sarah.printCourse();
+ Student ID: 21324221, Sarah Smith
+
+ Course BT1CTG1: BSc (Hons) Computing
+freddie.printCourse();
+ Student ID: 21321121, Freddie Failure
+
+ Course BT1CTG1: BSc (Hons) Computing

@@ -5,6 +5,7 @@ import java.util.*;
  * 
  * @author Michael Kölling and David Barnes
  * Modified by Derek Peacock & Nicholas Day
+ * Modified by Jessica Leach
  * @version 2021-08-18
  */
 public class Student
@@ -49,7 +50,7 @@ public class Student
      */
     public void createMarks()
     {
-        int value = 70;
+        int value = 60;
         for(Module module : course.modules)
         {
             ModuleMark mark = new ModuleMark(module);
@@ -127,7 +128,10 @@ public class Student
         }
     }
     
-    public void printTranscript()
+    /**
+     * Print a transcript that includes course code, modules titles, module 
+     * credit, a mark and a calculated grade along with an overall final grade.
+     */public void printTranscript()
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");
