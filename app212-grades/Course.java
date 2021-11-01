@@ -146,12 +146,4 @@ public class Course
             module.printCredit();
         }
     }
-    
-    /**
-     * Print the courses enrolled students
-     */
-    public void printEnrolled()
-    {
-        
-    }
 }
