@@ -1,0 +1,41 @@
+Student jessica = new Student();
+Course computing = new Course();
+Module co453 = new Module("CO453", "Application Programming");
+ModuleMark jessicaCO453Mark = new ModuleMark(co453);
+jessica.enrol(computing);
+computing.addModule(co453);
+jessica.addMark(jessicaCO453Mark);
+jessicaCO453Mark.setMark(200);
+jessica.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Jessica Leach
+ ------------------------------------
+ Student ID: 22133230, Jessica Leach
+
+ Course BT1CTG1: BSc (Hons) Computing
+Course Modules
+--------------
+
+
+ CO452: Programming Concepts	  15 credits
+ CO454: Digital Technologies and Professional Practice	  15 credits
+ CO456: Web Development	  15 credits
+ CO450: Computer Architectures	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	60B
+
+ CO454: Digital Technologies and Professional Practice	  15	50C
+
+ CO456: Web Development	  15	40D
+
+ CO450: Computer Architectures	  0	30F
+
+ CO453: Application Programming	  15	200A
+
+
+ Final Course Grade = A
