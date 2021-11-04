@@ -19,6 +19,7 @@ public class Student
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
     
+    
     /**
      * This constructor creates a new student with a
      * fixed name and id. 
@@ -50,7 +51,7 @@ public class Student
      */
     public void createMarks()
     {
-        int value = 60;
+        int value = 70;
         for(Module module : course.modules)
         {
             ModuleMark mark = new ModuleMark(module);

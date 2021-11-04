@@ -17,6 +17,7 @@ public class Course
     private String title;
     
     private Grades finalGrade;
+    
      
     /** A constructor that acts as a shortcut for creating a course object 
      * without needing to enter any details. 
