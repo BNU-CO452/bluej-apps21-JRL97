@@ -1,0 +1,24 @@
+Product milk = new Product(101, "Milk");
+milk.print();
+ ID 101: Milk stock level: 0
+milk.decreaseQuantity(1);
+milk.print();
+ ID 101: Milk stock level: 0
+milk.increaseQuantity(4);
+milk.print();
+ ID 101: Milk stock level: 4
+milk.decreaseQuantity(2);
+milk.print();
+ ID 101: Milk stock level: 2
+Product chicken = new Product(102, "Chicken");
+StockList groceryStockList1 = new StockList();
+groceryStockList1.add(milk);
+groceryStockList1.add(chicken);
+groceryStockList1.print();
+
+ Peacock's Stock List
+ ====================
+
+ ID 101: Milk stock level: 2
+ ID 102: Chicken stock level: 0
+
