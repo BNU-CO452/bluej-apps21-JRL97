@@ -35,7 +35,7 @@ public class StockDemo
         stock.add(new Product(107, "Eggs"));
         stock.add(new Product(108, "Greek Yogurt"));
         stock.add(new Product(109, "Honey"));
-        stock.add(new Product(110, "Tuna"));
+        stock.add(new Product(110, "Apple"));
     }
     
     /**

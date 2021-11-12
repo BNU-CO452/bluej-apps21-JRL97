@@ -157,4 +157,15 @@ public class StockList
         System.out.println(" ====================");
         System.out.println();
     }
+    
+    public void removeProduct()
+    {
+        int removed = generator.nextInt(10);
+        stock.remove(removed);
+    }
+    
+    public void listApple()
+    {
+        
+    }
 }
