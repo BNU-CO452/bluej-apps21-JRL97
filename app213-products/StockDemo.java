@@ -1,3 +1,4 @@
+import java.util.Random;
 
 /**
  * Demonstrate the StockManager and Product classes.
@@ -11,6 +12,8 @@ public class StockDemo
 {
     // The stock manager.
     private StockList stock;
+    
+    private Random generator = new Random();
 
     /**
      * Create a StockManager and populate it with at least
@@ -50,6 +53,21 @@ public class StockDemo
     
     private void buyProducts()
     {
+        Product product;
+        int quantity = 1;
+        for(int id = 101; id <= 110; id++)
+        {
+           product = stock.findProduct(id); 
+           if(product == null)
+           {
+               System.out.println("Product" + id + "Not Found");
+           }
+           else
+           {
+               quantity = generator.nextInt(20);
+               stock.buyProduct(id, quantity);
+           }
+        }
     }
 
     private void sellProducts()
