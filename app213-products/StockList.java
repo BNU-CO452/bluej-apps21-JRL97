@@ -162,6 +162,7 @@ public class StockList
     {
         int removed = generator.nextInt(10);
         stock.remove(removed);
+        
     }
     
     public void listApple()
