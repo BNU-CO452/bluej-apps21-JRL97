@@ -58,6 +58,10 @@ public class StockDemo
         stock.print();        
     }
     
+    /**
+     * Allows the stock demo to buy a randomly generated number of stocl for 
+     * each product added into the stock demo.
+     */
     private void buyProducts()
     {
         Product product;
@@ -77,6 +81,10 @@ public class StockDemo
         }
     }
 
+    /**
+     * Allows the stock demo to sell an amount of the previouly bought stock 
+     * for each product in a stocklist. 
+     */
     private void sellProducts()
     {
        Product product;
