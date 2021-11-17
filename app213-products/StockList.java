@@ -165,9 +165,4 @@ public class StockList
         stock.remove(item);
         System.out.println("Item Removed" + item.getName()); 
     }
-    
-    public void listApple()
-    {
-        
-    }
 }
