@@ -158,11 +158,12 @@ public class StockList
         System.out.println();
     }
     
-    public void removeProduct()
+    public void remove(int productID) 
     {
-        int removed = generator.nextInt(10);
-        stock.remove(removed);
+        Product item = findProduct(productID); 
         
+        stock.remove(item);
+        System.out.println("Item Removed" + item.getName()); 
     }
     
     public void listApple()
