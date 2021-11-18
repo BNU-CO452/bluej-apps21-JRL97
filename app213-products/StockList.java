@@ -165,4 +165,14 @@ public class StockList
         stock.remove(item);
         System.out.println("Item Removed" + item.getName()); 
     }
+    
+    public void printlowstock()
+    {
+    for (Product product : stock)
+    {
+        if(product.getQuantity()<3)
+            System.out.println(product);
+    }
+ 
+}   
 }
