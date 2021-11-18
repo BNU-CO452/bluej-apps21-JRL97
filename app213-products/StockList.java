@@ -158,6 +158,9 @@ public class StockList
         System.out.println();
     }
     
+    /**
+     * Remove a product from the stock list using its ID number.
+     */
     public void remove(int productID) 
     {
         Product item = findProduct(productID); 
@@ -166,13 +169,15 @@ public class StockList
         System.out.println("Item Removed" + item.getName()); 
     }
     
+    /**
+     * Print items in the stock list that have a stock value of less than 3.
+     */
     public void printlowstock()
     {
-    for (Product product : stock)
-    {
+        for (Product product : stock)
+        {
         if(product.getQuantity()<3)
             System.out.println(product);
+        }
     }
- 
-}   
 }

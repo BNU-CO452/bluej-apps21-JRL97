@@ -1,0 +1,72 @@
+StockList groceries = new StockList();
+StockDemo groceriesStockDemo = new StockDemo(groceries);
+groceriesStockDemo.runDemo();
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 0
+ ID 105: Cheddar Cheese stock level: 0
+ ID 106: Pasta stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+
+Bought 0  ID 101: Milk stock level: 0
+Bought 12  ID 102: Chicken stock level: 12
+Bought 14  ID 103: Apple Juice stock level: 14
+Bought 7  ID 104: Bacon stock level: 7
+Bought 7  ID 105: Cheddar Cheese stock level: 7
+Bought 10  ID 106: Pasta stock level: 10
+Bought 5  ID 107: Eggs stock level: 5
+Bought 19  ID 108: Greek Yogurt stock level: 19
+Bought 17  ID 109: Honey stock level: 17
+Bought 7  ID 110: Apple stock level: 7
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 12
+ ID 103: Apple Juice stock level: 14
+ ID 104: Bacon stock level: 7
+ ID 105: Cheddar Cheese stock level: 7
+ ID 106: Pasta stock level: 10
+ ID 107: Eggs stock level: 5
+ ID 108: Greek Yogurt stock level: 19
+ ID 109: Honey stock level: 17
+ ID 110: Apple stock level: 7
+
+Not Enough of  ID 101: Milk stock level: 0 Stock to Sell. 
+Sold 10 of  ID 102: Chicken stock level: 2
+Sold 8 of  ID 103: Apple Juice stock level: 6
+Not Enough of  ID 104: Bacon stock level: 7 Stock to Sell. 
+Not Enough of  ID 105: Cheddar Cheese stock level: 7 Stock to Sell. 
+Not Enough of  ID 106: Pasta stock level: 10 Stock to Sell. 
+Not Enough of  ID 107: Eggs stock level: 5 Stock to Sell. 
+Sold 0 of  ID 108: Greek Yogurt stock level: 19
+Sold 15 of  ID 109: Honey stock level: 2
+Sold 3 of  ID 110: Apple stock level: 4
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 2
+ ID 103: Apple Juice stock level: 6
+ ID 104: Bacon stock level: 7
+ ID 105: Cheddar Cheese stock level: 7
+ ID 106: Pasta stock level: 10
+ ID 107: Eggs stock level: 5
+ ID 108: Greek Yogurt stock level: 19
+ ID 109: Honey stock level: 2
+ ID 110: Apple stock level: 4
+
+groceries.printlowstock();
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 2
+ ID 109: Honey stock level: 2
