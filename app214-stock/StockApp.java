@@ -85,8 +85,20 @@ public class StockApp
         int id = reader.getInt("Please Enter a Product ID > ");
         String name = reader.getString("Please enter the product name > ");
         
-        Product product = new Product(id, name);
-        stock.add(product);
+        
+      
+        Product checkproduct = stock.findProduct(id);
+        
+         if(checkproduct != null)
+        {
+            System.out.println("Error : Item Already Exists");
+        }
+        else
+        {
+            Product product = new Product(id, name);
+            stock.add(product);
+            System.out.println("Item Successfully Added");
+        }
         stock.print();
     }
     
@@ -98,8 +110,17 @@ public class StockApp
         int id = reader.getInt("Please Enter a Product ID > ");
         String name = reader.getString("Please enter the product name > ");
         
-        Product product = new Product(id, name);
-        stock.remove(id);
+        Product product = stock.findProduct(id);
+        
+        if(product !=null)
+        {
+            stock.remove(id);
+            System.out.println("Successfully Removed Item");
+        }
+        else
+        {
+            System.out.println("Error : Could Not Find Item");
+        }
         stock.print();
     }
     

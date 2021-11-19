@@ -1,0 +1,199 @@
+ ID 105: Cheddar Cheese stock level: 0
+ ID 106: Pasta stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Adding a new Product
+
+Please Enter a Product ID > 
+201
+Please enter the product name > 
+Your input is blank!
+
+Please enter the product name > Tuna
+Item Successfully Added
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 0
+ ID 105: Cheddar Cheese stock level: 0
+ ID 106: Pasta stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+ ID 201: Tuna stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Adding a new Product
+
+Please Enter a Product ID > 
+109
+Please enter the product name > 
+Your input is blank!
+
+Please enter the product name > Honey
+Error : Item Already Exists
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 0
+ ID 105: Cheddar Cheese stock level: 0
+ ID 106: Pasta stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+ ID 201: Tuna stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Remove a Product
+
+Please Enter a Product ID > 
+106
+Please enter the product name > 
+Your input is blank!
+
+Please enter the product name > Pasta
+Item RemovedPasta
+Successfully Removed Item
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 0
+ ID 105: Cheddar Cheese stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+ ID 201: Tuna stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+Remove a Product
+
+Please Enter a Product ID > 
+205
+Please enter the product name > 
+Your input is blank!
+
+Please enter the product name > Flour
+Error : Could Not Find Item
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 0
+ ID 105: Cheddar Cheese stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+ ID 201: Tuna stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 0
+ ID 105: Cheddar Cheese stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+ ID 201: Tuna stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit
