@@ -57,6 +57,10 @@ public class StockApp
         {
             addProduct();   
         }
+        else if(choice.equals("remove"))
+        {
+            removeProduct();   
+        }
         return false;
     }
    
@@ -83,6 +87,19 @@ public class StockApp
         
         Product product = new Product(id, name);
         stock.add(product);
+        stock.print();
+    }
+    
+    private void removeProduct()
+    {
+        System.out.println("Remove a Product");
+        System.out.println();
+        
+        int id = reader.getInt("Please Enter a Product ID > ");
+        String name = reader.getString("Please enter the product name > ");
+        
+        Product product = new Product(id, name);
+        stock.remove(id);
         stock.print();
     }
     
