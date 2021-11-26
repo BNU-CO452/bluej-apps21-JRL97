@@ -61,6 +61,26 @@ public class StockApp
         {
             removeProduct();   
         }
+        else if(choice.equals("buy"))
+        {
+            buyProduct();
+        }
+        else if(choice.equals("sell"))
+        {
+            sellProduct();
+        }
+        else if(choice.equals("search"))
+        {
+             
+        }
+        else if(choice.equals("low stock"))
+        {
+              
+        }
+        else if(choice.equals("restock"))
+        {
+              
+        }
         return false;
     }
    
@@ -74,6 +94,11 @@ public class StockApp
         System.out.println("    Remove:     Remove an old product");
         System.out.println("    Print:      Print all products");
         System.out.println("    Quit:       Quit the program");
+        System.out.println("    Buy:        Buy an amount of a product");
+        System.out.println("    Sell:       Sell an amount of a product");
+        System.out.println("    Search:     Search for a product");
+        System.out.println("    Low Stock:  Print a list of items with low stock");
+        System.out.println("    Restock:    Restock a product");
         System.out.println();        
     }
     
@@ -116,6 +141,52 @@ public class StockApp
         {
             stock.remove(id);
             System.out.println("Successfully Removed Item");
+        }
+        else
+        {
+            System.out.println("Error : Could Not Find Item");
+        }
+        stock.print();
+    }
+    
+     private void buyProduct()
+    {
+        System.out.println("Buy a Product");
+        System.out.println();
+        
+        int id = reader.getInt("Please Enter a Product ID > ");
+    
+        int amount = reader.getInt("Please Enter an Amount> ");
+        
+        Product product = stock.findProduct(id);
+        
+        if(product !=null)
+        {
+            product.increaseQuantity(amount);
+            System.out.println(" Successfully Purchased " + amount + product);
+        }
+        else
+        {
+            System.out.println("Error : Could Not Find Item");
+        }
+        stock.print();
+    }
+    
+    private void sellProduct()
+    {
+        System.out.println("Sell a Product");
+        System.out.println();
+        
+        int id = reader.getInt("Please Enter a Product ID > ");
+    
+        int amount = reader.getInt("Please Enter an Amount> ");
+        
+        Product product = stock.findProduct(id);
+        
+        if(product !=null)
+        {
+            product.decreaseQuantity(amount);
+            System.out.println(" Successfully sold " + amount + product);
         }
         else
         {
