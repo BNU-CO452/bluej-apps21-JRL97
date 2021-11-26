@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 /**
  * This app provides a user interface to the
  * stock manager so that users can add, edit,
@@ -75,7 +75,7 @@ public class StockApp
         }
         else if(choice.equals("low stock"))
         {
-              
+            stockLow();  
         }
         else if(choice.equals("restock"))
         {
@@ -102,6 +102,9 @@ public class StockApp
         System.out.println();        
     }
     
+    /**
+     * Add products to the stocklist 
+     */
     private void addProduct()
     {
         System.out.println("Adding a new Product");
@@ -127,6 +130,9 @@ public class StockApp
         stock.print();
     }
     
+    /**
+     * Remove products to the stocklist 
+     */
     private void removeProduct()
     {
         System.out.println("Remove a Product");
@@ -149,7 +155,10 @@ public class StockApp
         stock.print();
     }
     
-     private void buyProduct()
+    /**
+     * Buy stock for a chosen product 
+     */ 
+    private void buyProduct()
     {
         System.out.println("Buy a Product");
         System.out.println();
@@ -172,6 +181,9 @@ public class StockApp
         stock.print();
     }
     
+    /**
+     * Sell stock from a chosen product
+     */
     private void sellProduct()
     {
         System.out.println("Sell a Product");
@@ -193,6 +205,15 @@ public class StockApp
             System.out.println("Error : Could Not Find Item");
         }
         stock.print();
+    }
+    
+    /**
+     * Print low stock out
+     */
+    private void stockLow()
+    {
+        int amount = reader.getInt("Please Enter an Amount> ");
+        stock.printLowStock(amount);  
     }
     
     /**

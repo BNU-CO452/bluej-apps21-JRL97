@@ -172,11 +172,11 @@ public class StockList
     /**
      * Print items in the stock list that have a stock value of less than 3.
      */
-    public void printlowstock()
+    public void printLowStock(int amount)
     {
         for (Product product : stock)
         {
-        if(product.getQuantity()<3)
+        if(product.getQuantity()<amount)
             System.out.println(product);
         }
     }
