@@ -1,0 +1,160 @@
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy an amount of a product
+    Sell:       Sell an amount of a product
+    Search:     Search for a product
+    Low Stock:  Print a list of items with low stock
+    Restock:    Restock a product
+
+Please enter your choice > print
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 0
+ ID 105: Cheddar Cheese stock level: 0
+ ID 106: Pasta stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy an amount of a product
+    Sell:       Sell an amount of a product
+    Search:     Search for a product
+    Low Stock:  Print a list of items with low stock
+    Restock:    Restock a product
+
+Please enter your choice > buy
+Buy a Product
+
+Please Enter a Product ID > 
+104
+Please Enter an Amount> 
+6
+ Successfully Purchased 6 ID 104: Bacon stock level: 6
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 6
+ ID 105: Cheddar Cheese stock level: 0
+ ID 106: Pasta stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy an amount of a product
+    Sell:       Sell an amount of a product
+    Search:     Search for a product
+    Low Stock:  Print a list of items with low stock
+    Restock:    Restock a product
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+Sell a Product
+
+Please Enter a Product ID > 
+104
+Please Enter an Amount> 
+4
+ Successfully sold 4 ID 104: Bacon stock level: 2
+
+ Jessica's Stock List
+ ====================
+
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 104: Bacon stock level: 2
+ ID 105: Cheddar Cheese stock level: 0
+ ID 106: Pasta stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy an amount of a product
+    Sell:       Sell an amount of a product
+    Search:     Search for a product
+    Low Stock:  Print a list of items with low stock
+    Restock:    Restock a product
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > low stock
+Please Enter an Amount> 
+1
+ ID 101: Milk stock level: 0
+ ID 102: Chicken stock level: 0
+ ID 103: Apple Juice stock level: 0
+ ID 105: Cheddar Cheese stock level: 0
+ ID 106: Pasta stock level: 0
+ ID 107: Eggs stock level: 0
+ ID 108: Greek Yogurt stock level: 0
+ ID 109: Honey stock level: 0
+ ID 110: Apple stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Jessica Leach
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy an amount of a product
+    Sell:       Sell an amount of a product
+    Search:     Search for a product
+    Low Stock:  Print a list of items with low stock
+    Restock:    Restock a product
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > quit

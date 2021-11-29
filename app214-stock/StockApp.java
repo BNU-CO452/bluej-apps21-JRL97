@@ -79,7 +79,7 @@ public class StockApp
         }
         else if(choice.equals("restock"))
         {
-              
+            
         }
         return false;
     }
