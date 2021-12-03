@@ -103,7 +103,7 @@ public class StockApp
     }
     
     /**
-     * Add products to the stocklist 
+     * Add products to the stocklist by entering an ID and name 
      */
     private void addProduct()
     {
@@ -131,7 +131,7 @@ public class StockApp
     }
     
     /**
-     * Remove products to the stocklist 
+     * Remove products from the stocklist by search for their ID and name
      */
     private void removeProduct()
     {
@@ -156,7 +156,8 @@ public class StockApp
     }
     
     /**
-     * Buy stock for a chosen product 
+     * Find a product using an ID number input by the user then buy an input 
+     * amount of stock for the product. 
      */ 
     private void buyProduct()
     {
@@ -182,7 +183,8 @@ public class StockApp
     }
     
     /**
-     * Sell stock from a chosen product
+     * Find a product using an ID number input by the user then sell an input 
+     * amount of stock for the product. 
      */
     private void sellProduct()
     {
@@ -208,7 +210,8 @@ public class StockApp
     }
     
     /**
-     * Print low stock out
+     * Print a list of all products that have a stock amount lower than the 
+     * input.
      */
     private void stockLow()
     {
