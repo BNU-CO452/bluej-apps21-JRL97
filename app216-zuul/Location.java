@@ -14,6 +14,7 @@ import java.util.Iterator;
  * 
  * @author  Michael Kölling and David J. Barnes
  * Modified by Derek Peacock & Nicholas Day
+ * Modified by Jessica Leach 
  * @version 2016.02.29
  */
 
